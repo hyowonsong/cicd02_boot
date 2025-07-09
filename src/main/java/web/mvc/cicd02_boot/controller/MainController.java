@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     @GetMapping("/")
     public String index(){
-        return "GitHub Actions를 이용한 CI/CD 배포자동화 re";
+        return "GitHub Actions를 이용한 CI/CD 배포자동화";
     }
 }
